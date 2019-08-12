@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8" >
+<html>
+    <head lang="pt-br">
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style/style-pais.css"/>
+        <link rel="stylesheet" href="style/icon.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link rel="shortcut icon" href="imagens/logo-1.png" type="image/png">
+        <title>Lugares paradisíacos</title>   
+        <style>
+            .fundo-curriculo{
+                /* display: none; */
+                z-index: 1;
+                position: absolute;
+                width: 100%;
+                background-size: unset
+            }
+            .fundo-curriculo img{
+                width: 100%;
+                height: 650px;
+            }
+            .foto-perfil{
+                padding-top: 140px ;
+            }
+            .foto-perfil img{
+                position: relative;
+                left: 390px;
+                right: 390px;
+                width: 150px;
+                height: 140px;
+                border-radius: 100px;
+                text-align: center;
+            }
+            .titulo-center{
+                position: absolute;
+                left: 90px;
+                right: 90px;
+                top: 595px;
+                z-index: 10;
+                text-align: center;
+                padding-top: -20px;
+                size: 40px
+            }
+            .titulo-center h1{
+                color: aliceblue;
+                font-size: 35px
+            }
+            .titulo-center h4{
+                color: rgb(182, 186, 190);
+            }
+            .perfil{
+                visibility: visible;
+            }
+            .perfil.fixed{
+                display: none;
+            }
+            .quem-sou{
+                background-color: rgb(253, 253, 253);
+                text-align: justify;
+                position: relative;
+                width: 250px;
+                height: 300px;
+                padding-top: 30px;
+                padding-bottom: 300px
+            }
+            .pessoal{
+                background-color: rgb(253, 253, 253);
+                text-align: justify;
+                position: absolute;
+                left: 830px;
+                top: 285px;
+                bottom: 210px;
+                width: 300px;
+                height: 300px;
+                padding-top: 30px;
+                padding-bottom: 300px;
+            }
+            aside{
+                border-radius: 10px;
+                border: none;
+                box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .4) ;
+            }
+            .pessoal h2{
+                background-color: rgb(253, 253, 253);
+                padding-bottom: 19px
+            }
+            .pessoal p{
+                background-color: rgb(253, 253, 253);
+                padding-top: 9px;
+                padding-bottom: 9px;
+            }
+            .experiencia{
+                margin: 18px;
+                padding: 10px;
+            }
+            .exp-01{
+                border: rgba(0, 0, 0, .4);
+                background-color: rgb(253, 253, 253);
+            }
+            .exp-01 h3{
+                text-align: center;
+                padding: 5px;
+            }
+            .exp-01 p{
+                text-align: justify;
+                padding: 5px;
+            }
+
+            .exp-02{
+                display: none;
+            }
+        </style>    
+    </head>
+	
+	<body>  
+        <div class="perfil">
+            <!-- START HEADER -->
+            <header class="header">
+                <div class="content">
+                    <div class="logo-menu fl-left">
+                        <a href="index.html"><img src="imagens/logo-1.png" width="80px" height="80px"  alt="Logo Principal do Site"/></a>
+                    </div>
+                    <a href="#" class="nav-toggle fl-rigth"><i class="icono-hamburger"></i></a>
+                    <nav class="nav-menu">
+                        <p class="text-rigth">
+                            <span class="nav-close">
+                                <i class="icono-cross"></i>
+                            </span>
+                        </p>
+                        <ul id="menu-lista">
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="curiosidades.html">Curiosidades</a></li>
+                            <li><a href="dicas-e-truques.html">Dicas e truques</a></li>
+                            <li><a href="cadastro.html">Cadastre-se</a></li>
+                            <li><a href="esclarecimentos.html">Esclarecimentos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>  
+            <!-- END HEADER  -->
+
+            <!-- START DESTINOS -->
+            <section class="section">
+                <div class="content">
+                    <div class="foto-perfil">
+                        <img src="imagens/eu.jpg" alt="Juliano Nogueira">     
+                    </div>
+                    <article>
+                        <aside class="quem-sou"> 
+                            <fieldset>
+                                <h2>Quem sou eu ?</h2><br><br>
+                                <p>Quando minha hora chegar
+                                    Esqueça os erros que eu cometi
+                                    Ajude-me a deixar para trás algumas
+                                    Razões para ser lembrado
+                                    Não fique ressentida comigo
+                                    Quando se sentir vazia
+                                    Mantenha-me em sua memória
+                                    Esqueça todo o resto
+                                    Esqueça todo o resto</p>
+                            </fieldset>
+                        </aside>
+                    </article>    
+                    <article>
+                        <aside class="pessoal">
+                            <fieldset>
+                                <h2>Informações Pessoais</h2>
+                                <p><b> Nome:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Juliano Nogueira</p>
+                                <p><b> Idade:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21 anos</p>
+                                <p><b> Sexo:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Masculino</p>
+                                <p><b> Contato:</b>&nbsp; +55 (34) 98876-6593</p>   
+                                <p><b> Cidade:</b>&nbsp;&nbsp;&nbsp;&nbsp;Uberaba-MG</p>
+                                <p><b> Endereço:</b>Rua: Exemplo Nº 66 Boa Vista</p>
+                            </fieldset>
+                        </aside>
+                    </article>
+                    <article>
+                        <aside class="experiencia">
+                            <h2 align="center">Experiências Profissionais</h2>
+                            <fieldset class="exp-01">
+                                <h3>Triângulo Sul Tecnologia</h3>
+                                <p><b> Função:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Desenvolvimentos de sistemas e aplicativos</p>
+                                <p><b> Cargo</b>&nbsp;<b> :</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trainne</p>
+                                <p><b> Atribuições:</b>Desenvolver sistemas em PHP, JavaScrip, Jquery entre ountras tecnologias. Aplicativos em React-Native. Interação com Banco de Dados PostgresSql.</p>
+                            </fieldset>
+                            <fieldset class="exp-02">
+                                <h3>TCF-Telecom</h3>
+                                <p><b> Função:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Juliano Nogueira</p>
+                                <p><b> Cargo:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21 anos</p>
+                                <p><b> Atribuições:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Masculino</p>
+                            </fieldset>
+                        </aside>
+                    </article>
+                </div>
+            </section>
+            <!-- END DESTINOS -->
+            <!-- START FOOTER -->
+            <footer class="footer">
+                <div class="content">
+                    <div class="footer-colum">
+                        <h1>Sobre a Empresa</h1>
+                        <p>Não acredite em algo simplesmente porque ouviu. Não acredite em algo simplesmente porque todos falam a respeito. Não acredite em algo simplesmente porque está escrito em seus livros religiosos. Não acredite em algo só porque seus professores e mestres dizem que é verdade. Não acredite em tradições só porque foram passadas de geração em geração. Mas depois de muita análise e observação, se você vê que algo concorda com a razão, e que conduz ao bem e benefício de todos, aceite-o e viva-o.</p>
+                    </div>
+                    <div class="footer-colum">
+                        <h1>Sites de Viajens</h1>
+                        <ul class="footer-colum-links">
+                            <li><a href="https://www.decolar.com/" target="_blank">Decolar</a></li>
+                            <li><a href="https://www.cvc.com.br/" target="_blank">CVC</a></li>
+                            <li><a href="http://www.viajarbarato.com.br/" target="_blank">Viajar Barato</a></li>
+                            <li><a href="https://www.visitorlando.com/pt" target="_blank"> VisitOrlando</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-colum">
+                        <h1>Social</h1>
+                        <ul class="footer-colum-social">
+                            <li><a href="https://www.facebook.com/juliano.marquesnogueira"><i class="icon icono-facebook"></i>Facebook</a></li>
+                            <li><a href="https://www.instagram.com/_ju.liano/?hl=pt-br"><i class="icon icono-instagram"></i>Instagram</a></li>
+                            <li><a href="https://www.linkedin.com/in/juliano-nogueira-5ba97a174/"><i class="icon icono-linkedIn"></i> Linkedin</a></li>
+                        </ul>
+                    </div>    
+                    <div class="row footer-autorais text-center">
+                        Juliano Nogueira - <b>RA</b> 5147409 | Trainee FullStack Developer <i class="icono-cup"></i> Todos os direitos reservados<br>
+                        <a href="uniube.br"><img src="imagens/logo-2.png" alt="Uniube"/></a>
+                    </div>
+                </div>
+            </footer>
+            <!-- END FOOTER -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="js/script-menu.js"></script>		
+        </div>
+    </body>
+</html>

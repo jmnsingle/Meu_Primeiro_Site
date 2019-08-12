@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8" >
+<html>
+    <head lang="pt-br">
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style/style-pais.css"/>
+        <link rel="stylesheet" href="style/icon.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link rel="shortcut icon" href="imagens/logo-1.png" type="image/png">
+        <title>Lugares paradisíacos</title>   
+        <style>
+            .fundo-curriculo{
+                /* display: none; */
+                z-index: 1;
+                position: absolute;
+                width: 100%;
+                background-size: unset
+            }
+            .fundo-curriculo img{
+                width: 100%;
+                height: 650px;
+            }
+            .foto-perfil{
+                padding-top: 140px ;
+            }
+            .foto-perfil img{
+                position: relative;
+                left: 390px;
+                right: 390px;
+                width: 150px;
+                height: 140px;
+                border-radius: 100px;
+                text-align: center;
+            }
+            .titulo-center{
+                position: absolute;
+                left: 90px;
+                right: 90px;
+                top: 595px;
+                z-index: 10;
+                text-align: center;
+                padding-top: -20px;
+                size: 40px
+            }
+            em{
+                position: absolute;
+                left: -400px;
+                right: 90px;
+                top: 10px;
+                z-index: 10;
+                text-align: center;
+                padding-top: -20px;
+                size: 40px
+            }
+            .link:hover{
+                color: red;
+            }
+            a {
+                font-size: 30px;
+                font-weight: bold;
+                color: azure;
+            }
+            .p2{
+                color: rgb(173, 173, 173); 
+                font-weight: bold;
+            }
+        </style>  
+        <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+        </script>  
+    </head>
+	
+	<body>  
+        <div class="perfil">	
+            <div class="fundo-curriculo">
+                <img src="imagens/fundo-curriculo.jpg" alt="">  
+                <div class="titulo-center">
+                   <em><font size="2"> Click Aqui e vá para meu currículo -></font> </em> <a href="curriculo.html" class="link" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                     Juliano Nogueira</a>
+                    <p class="p2">Trainne | FullStack Developer</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
